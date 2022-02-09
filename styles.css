@@ -1,0 +1,155 @@
+.arena {
+  background-color: #c3c3c3;
+  border: 10px solid black;
+  border-left-color: rgb(134, 30, 30, 0.8);
+  border-right-color: rgb(32, 44, 148, 0.8);
+  border-left-width: 20px;
+  border-right-width: 20px;
+  height: 300px;
+  width: auto;
+  overflow: hidden;
+  align-content: center;
+}
+h1{
+  text-align: center;
+  font-size: 60px;
+}
+
+h2{
+  color: white;
+}
+
+#p1banner {
+  position: relative;
+  float: left;
+  height: 97%;
+  width: 70px;
+  border: 2px solid rgb(134, 30, 30, 0.8);
+  margin: 2px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  background-color: #081b33;
+}
+#p1banner23 {
+  position: relative;
+  top: 43%;
+  float: left;
+  height: 15%;
+  width: 70px;
+  margin-left: 15px;
+  /* background-color: powderblue; */
+}
+
+#p1 {
+  position: relative;
+  float: left;
+  top: 40%;
+  height: 70px;
+  width: 70px;
+  margin-left: 20px;
+}
+
+#p2 {
+  position: relative;
+  float: right;
+  top: 40%;
+  height: 70px;
+  width: 70px;
+  margin-right: 50px;
+}
+
+#p2banner {
+  position: relative;
+  float: right;
+  height: 97%;
+  width: 70px;
+  border: 2px solid rgb(32, 44, 148, 0.8);
+  margin: 2px;
+  writing-mode: vertical-lr;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  background-color: #081b33;
+}
+
+#p2banner24 {
+  position: relative;
+  float: right;
+  top: 43%;
+  height: 70px;
+  width: 70px;
+  margin-right: 40px;
+}
+
+#ShootBtn {
+  background-color: rgb(134, 30, 30, 0.8);
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Audiowide', cursive;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 310px;
+}
+
+.Score-Board {
+  border: 1px solid black;
+  background-color: black;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 35% 35% auto;
+}
+
+.grid-item {
+  background-color: #c3c3c3;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.result {
+  border: 1px solid black;
+  background-color: black;
+  padding: 2px;
+  display: grid;
+  font-weight: bold;
+}
+.result-item {
+  background-color: #081b33;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+#resetBtn {
+  background-color: rgb(78, 33, 150, 0.9);
+  border: none;
+
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Audiowide', cursive;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 15px;
+  margin-left: 400px;
+}
+
+#p1FireScore {
+  font-size: 50px;
+  font-weight: bold;
+}
+#p2FireScore {
+  font-size: 50px;
+  font-weight: bold;
+}
